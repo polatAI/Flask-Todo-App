@@ -4,7 +4,7 @@ import requests
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////Users/1seyf/Desktop/flask-todo-app/todo.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = "" # siz dolduracaksınız
 db = SQLAlchemy(app)
 @app.route("/")
 def index():
